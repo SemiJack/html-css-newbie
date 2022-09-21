@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule zatrudnij-montazyste-filmowego index.html
+RewriteRule kim-jestem kimjestem.html
+RewriteRule oferta-montaz-filmow-www oferta.html
+RewriteRule cv-montazysta-premiere-camtasia-moviemaker cv.html
+RewriteRule kontakt-montazysta-premiere kontakt.html
